@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['android',['android',['../namespacexamarincontroles_1_1android.html',1,'xamarincontroles']]],
+  ['droid',['Droid',['../namespace_xamarin_controles_1_1_droid.html',1,'XamarinControles']]],
+  ['ios',['iOS',['../namespace_xamarin_controles_1_1i_o_s.html',1,'XamarinControles']]],
+  ['resources',['resources',['../namespace_xamarin_controles_1_1resources.html',1,'XamarinControles']]],
+  ['uwp',['UWP',['../namespace_xamarin_controles_1_1_u_w_p.html',1,'XamarinControles']]],
+  ['xamarincontroles',['xamarincontroles',['../namespacexamarincontroles.html',1,'xamarincontroles'],['../namespace_xamarin_controles.html',1,'XamarinControles']]],
+  ['xamarincontroles_2eapp_2examl_2eg_2ecs',['XamarinControles.App.xaml.g.cs',['../_release_2_xamarin_controles_8_app_8xaml_8g_8cs.html',1,'']]],
+  ['xamarincontroles_2eapp_2examl_2eg_2ecs',['XamarinControles.App.xaml.g.cs',['../_debug_2_xamarin_controles_8_app_8xaml_8g_8cs.html',1,'']]],
+  ['xamarincontroles_2emainpage_2examl_2eg_2ecs',['XamarinControles.MainPage.xaml.g.cs',['../_debug_2_xamarin_controles_8_main_page_8xaml_8g_8cs.html',1,'']]],
+  ['xamarincontroles_2emainpage_2examl_2eg_2ecs',['XamarinControles.MainPage.xaml.g.cs',['../_release_2_xamarin_controles_8_main_page_8xaml_8g_8cs.html',1,'']]],
+  ['xamarincontroles_5fuwp_5fxamltypeinfo',['XamarinControles_UWP_XamlTypeInfo',['../namespace_xamarin_controles_1_1_u_w_p_1_1_xamarin_controles___u_w_p___xaml_type_info.html',1,'XamarinControles::UWP']]],
+  ['xamltypeinfo_2eg_2ecs',['XamlTypeInfo.g.cs',['../_a_r_m_2_release_2_xaml_type_info_8g_8cs.html',1,'']]],
+  ['xamltypeinfo_2eg_2ecs',['XamlTypeInfo.g.cs',['../x64_2_release_2_xaml_type_info_8g_8cs.html',1,'']]],
+  ['xamltypeinfo_2eg_2ecs',['XamlTypeInfo.g.cs',['../_a_r_m_2_debug_2_xaml_type_info_8g_8cs.html',1,'']]],
+  ['xamltypeinfo_2eg_2ecs',['XamlTypeInfo.g.cs',['../x86_2_debug_2_xaml_type_info_8g_8cs.html',1,'']]],
+  ['xamltypeinfo_2eg_2ecs',['XamlTypeInfo.g.cs',['../x86_2_release_2_xaml_type_info_8g_8cs.html',1,'']]],
+  ['xamltypeinfo_2eg_2ecs',['XamlTypeInfo.g.cs',['../x64_2_debug_2_xaml_type_info_8g_8cs.html',1,'']]]
+];

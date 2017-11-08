@@ -2,10 +2,104 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XamarinControles"
-             x:Class="XamarinControles.MainPage">
+             x:Class="XamarinControles.MainPage"
+             Padding="10">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
+    <StackLayout>
+        <Label x:Name="lblUserSearch"
+           Text="Búsqueda de usuarios"
+           FontSize="Large"
+           Margin="10"
+           VerticalOptions="Start"
            HorizontalOptions="Center" />
+
+        <StackLayout Orientation="Horizontal">
+
+            <Button x:Name="btnSearchFile"
+            Text="Cargar fichero"
+            VerticalOptions="Start"
+            HorizontalOptions="Start"
+            Clicked="btnSearchFile_Clicked"
+            />
+
+            <Picker x:Name="PickerType" >
+                <Picker.Items>
+                    <x:String>TXT</x:String>
+                    <x:String>XML</x:String>
+                </Picker.Items>
+                <Picker.SelectedIndex>0</Picker.SelectedIndex>
+            </Picker>
+
+        </StackLayout>
+
+        <Label x:Name="lblFiltrar"
+                Text="Filtros"
+               HorizontalOptions="Center"
+               Margin="10"
+               FontSize="Medium"
+               />
+        
+        <Label x:Name="lblNameFilter" 
+           Text="Nombre:"
+           VerticalOptions="Start" 
+           HorizontalOptions="Start" />
+
+        <Entry  x:Name="txtName"
+            VerticalOptions="Start"
+            HorizontalOptions="Start"
+            />
+        
+        <StackLayout Orientation="Horizontal">
+            
+            <Label  x:Name="lblMinAge"
+           Text="Edad mínima:" 
+           VerticalOptions="Start" 
+           HorizontalOptions="StartAndExpand" />
+
+            <Label  x:Name="lblMaxAge"
+           Text="Edad máxima:" 
+           VerticalOptions="Start" 
+           HorizontalOptions="StartAndExpand" />
+
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+
+            <Entry  x:Name="txtMinAge"
+            VerticalOptions="Start"
+            HorizontalOptions="StartAndExpand"
+            />
+
+            <Entry  x:Name="txtMaxAge"
+            VerticalOptions="Start"
+            HorizontalOptions="StartAndExpand"
+            />
+
+        </StackLayout>
+
+        <Button
+            x:Name="btnFiltrar"
+            Text="Filtrar"
+            VerticalOptions="Start"
+            HorizontalOptions="Start"
+            Clicked="btnFiltrar_Clicked"/>
+
+        <Label x:Name="lblError" />
+
+        <Label x:Name="lblResult"
+               Text="Resultado"
+               FontSize="Medium"
+               Margin="10"
+               HorizontalOptions="Center">
+        </Label>
+
+        <ListView x:Name="listUsers"
+                  VerticalOptions="Start"
+                  HorizontalOptions="Start" />
+                  
+    </StackLayout>
+
+    
+
 
 </ContentPage>
